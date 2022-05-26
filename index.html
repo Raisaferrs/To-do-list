@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>To-do list</title>
+</head>
+<body>
+    <h1>To-do list da Raisa</h1>
+    <div id="list"> 
+        <form id="task-form">
+            <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui outras tarefas">
+            <button type="submit" onclick="adicionar">Adicionar</button>
+        <div>
+           <input type="checkbox" id="Arrumar a casa" name="Arrumar a casa">
+           <label for="Arrumar a casa">Arrumar a casa</label> 
+        </div>
+        <div>
+           <input type="checkbox" id="Estudar Inglês" name="Estudar Inglês">
+           <label for="Estudar Inglês">Estudar Inglês</label>
+        </div>
+        <div>
+           <input type="checkbox" id="Ir ao mercado" name="Ir ao mercado">
+           <label for="Ir ao mercado">Ir ao mercado</label>
+        </div>
+        </form>
+        <div id="tasks"></div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

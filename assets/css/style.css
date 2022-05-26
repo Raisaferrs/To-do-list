@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Quicksand:wght@500&display=swap');
+
+
+* {
+    font-family: 'Quicksand', sans-serif;   
+}
+
+body {
+    font-size: 16pt;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 90px;
+    background-color: rgb(181, 195, 209);
+}
+
+
+button {
+    border:1px solid lightcoral;
+    border-radius: 15px;
+    background-color: lightcoral;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 2pc;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid lightslategray;
+    height: 30px;
+    width: 400px;
+    font-size: 18px; 
+}
+
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.task-item {
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+label {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: red;   
+}
